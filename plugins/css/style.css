@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: black;
+    font-size: 12px;
+    text-align: justify;
+}
+
+/*mudar cor do menu variando com altura*/
+/*mudar cor do menu variando com altura
+.top-nav-collapse {
+    background-color: #97af80 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #cfc79d !important;
+    }
+}*/
+
+/*texto do meu silider*/
+#intro .h6 {
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+/*largura maxima*/
+@media (max-width: 450px) {
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+/*=====header=====*/
+.anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.anuncio div {
+    width: 1031px;
+    height: 80px;
+    background-color: red;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/banner/banner-praia.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center center;
+}
+
+/*=====carrousel=====*/
+.silider {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: relative;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+/*
+=====conteúdos=====
+*/
+.main {
+    background-color: rgba(240, 248, 248, 0.751);
+    position: s;
+}
+
+/*
+=====serviços=====
+*/
+.servico ul {
+    list-style: none;
+}
+
+.servico-cabecalho {
+
+    font-size: 12;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.servico a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/*
+=====Local de estabelecimentos=====
+*/
+.local {
+    border-top: 1px solid rgb(209, 200, 200);
+    padding: 40px;
+}
+
+.local ul {
+    list-style: none;
+    font-size: 12 px;
+    color: black;
+}
+
+.local a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.header-local {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.oeste {
+    border-bottom: 1px solid rgb(209, 200, 200);
+
+}
+
+.sudeste {
+    border-bottom: 1px solid rgb(209, 200, 200);
+}
+
+.norte {
+    border-bottom: 1px solid rgb(209, 200, 200);
+}
+
+/*
+=====Footer=====
+*/
+footer {
+    background-color: rgb(23, 23, 41);
+}
+
+footer p {
+    color: white;
+}
+
+.footer {
+    border-bottom: 1px solid white;
+    padding: 20px;
+
+}
+
+.footer-cabecalho {
+    font-size: 14;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*footer text*/
+.foter-text {
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.foter-text p {
+    text-align: center;
+    color: white;
+}
+
+/*footer-informação*/
+.footer-informação {
+    padding: 20px;
+    color: white;
+}
+
+#footer-avaliacao ul {
+    list-style: none;
+}
+
+#footer-avaliacao li {
+    margin: 5px;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-social li {
+    list-style: none;
+    margin: 5px;
+
+}
+
+.footer-social i {
+    color: white;
+}
+
+/*footer nome do progamador*/
+.footer-programador {
+    border-top: 2px solid rgb(209, 200, 200);
+    padding: 10px;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+# voltar ao top 
+--------------------------------------------------------------*/
+.voltar-top {
+    position: fixed;
+    display: none;
+    right: 10px;
+    bottom: 15px;
+    z-index: 99999;
+    background: #93df06;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    transition: all 0.4s;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+
+}
+
+.voltar-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+.voltar-top:hover {
+    background: #6776f4;
+    color: #fff;
+}
+
+.voltar-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.voltar-top .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
